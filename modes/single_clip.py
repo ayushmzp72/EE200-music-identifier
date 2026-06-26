@@ -66,6 +66,9 @@ def render(database):
 
             st.pyplot(
                 plot_constellation(
+                    f,
+                    t,
+                    spectrogram_db,
                     peak_times,
                     peak_freqs
                 )
